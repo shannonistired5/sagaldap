@@ -1,7 +1,7 @@
 # Saga
 Updates about Saga HERE
 
-## Prerequisites
+## Installation
 Trying to npm install Saga with new versions of node and npm will not work. I reverted mine to  old versions and it was fine.
 
 - MongoDB v3.x or newer
