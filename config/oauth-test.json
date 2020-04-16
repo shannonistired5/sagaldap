@@ -1,0 +1,28 @@
+[
+  {
+    "strategy": "google-oauth20",
+    "name": "google",
+    "title": "Google",
+    "config": {
+      "name": "google",
+      "clientID": "400346208011-ilvp1e3ldbd8o1df14mocc7pp9f0s6pa.apps.googleusercontent.com",
+      "clientSecret": "ymCvbVgEE8YVoXn661ij-Rls",
+      "callbackURL": "/v1/auth/callback/google"
+    },
+    "authConfig": {
+      "scope": ["email", "profile"]
+    }
+  },
+  {
+    "strategy": "ldapauth",
+    // "name": "ldap",
+    // "title": "ldap",
+    "config": {
+      "url": "ldaps://login.library.wayne.edu:636",
+      "bindDN": "cn=libproxy,ou=system-groups,ou=groups,dc=wayne,dc=edu",
+      "bindCredentials": "password",
+      "searchBase": "cd=wayne,cd=edu",
+      "searchFilter": "uid={{username}}"
+    }
+  }
+]
