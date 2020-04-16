@@ -48,7 +48,7 @@ package-lock.json
 
 # OAuth secrets
 /config/*
-!/config/oauth.fallback.json
+/config/oauth.fallback.json
 /config/oauth.json
 /config/oauth-test.json
 
